@@ -1,0 +1,398 @@
+header {
+	left: 0;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+section {
+	margin-top: 100px;
+}
+
+div.order-wrap {
+	box-sizing: border-box;
+}
+
+div.peal-txt {
+}
+
+article.title {
+	width: 100%;
+	position: relative;
+	margin-bottom: 50px;
+	/*outline: 2px solid red;*/
+}
+
+article.title p.title-top {
+	font-size: 22px;
+	background-color: #d6eff3;
+	width: 40%;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+	border-top-right-radius: 15px;
+}
+
+article.title p.title-bottom {
+	font-size: 14px;
+	background-color: #d6eff3;
+	width: 40%;
+	padding-bottom: 10px;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+	border-bottom-right-radius: 15px;
+}
+
+article.inner {
+	margin: 0 auto;
+	padding: 0 16.66%;
+	margin-bottom: 60px;
+}
+
+article h2 {
+	font-size: 22px;
+}
+
+article h2 span.txt-size {
+	font-size: 36px;
+	margin-right: 7px;
+}
+
+article h2 span.txt-color {
+	color: blue;
+	font-size: 22px;
+}
+
+article p.content {
+	margin-left: 42px;
+	line-height: 25px;
+}
+
+article p.content1 {
+	margin-left: 49px;
+}
+
+article p.content2 {
+	margin-left: 7px;
+}
+
+article p.content4 {
+	margin-left: 75px;
+}
+
+article span.txt2-color {
+	color: blue;
+}
+
+article div.pearl-wrap {
+	margin-top: 30px;
+	/* outline: 2px solid red; */
+}
+
+article div.pearl-wrap ul {
+	width: 100%;
+	/*outline: 2px solid red;*/
+}
+
+article div.pearl-wrap ul li {
+	background-color: #d6eff3;
+	float: left;
+	width: 15%;
+	margin-right: 2%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	min-height: 120px;
+	/*outline: 2px solid red;*/
+}
+
+article div.pearl-wrap ul li img {
+	width: 100%;
+	/*outline: 2px solid red;*/
+}
+
+article div.pearl-wrap ul li:last-child {
+	margin-right: 0;
+}
+
+article div.pearl-wrap ul li h4 {
+	text-align: center;
+	font-size: 16px;
+}
+
+article div.pearl-wrap ul li p {
+	text-align: center;
+	font-size: 14px;
+}
+
+aritcle div.pearl {
+}
+
+aritcle div.pearl p.content {
+}
+
+table {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	border-spacing: 0;
+	font-size: 14px;
+}
+
+table tr > th {
+	height: 70px;
+	background-color: #d6eff3;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+}
+
+table tr:first-of-type > th {
+	border-bottom: 1px solid #ccc;
+}
+
+table tr > td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr > td:not(:last-of-type) {
+	border-right: 1px solid #ccc;
+}
+
+table tr > td {
+}
+
+table tr:first-of-type > td {
+	border-bottom: 1px solid #ccc;
+}
+
+span.acctent {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+article div.teabase {
+	margin-top: 30px;
+	border: 5px solid #d6eff3;
+	border-radius: 50px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+article div.teabase ul {
+	height: 100%;
+	width: 100%;
+}
+
+article div.teabase ul li {
+	float: left;
+	width: 33.33%;
+}
+
+article div.teabase ul li img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	max-width: 80px;
+}
+
+article div.teabase ul li div.teabasetxt {
+	width: 70%;
+	float: left;
+	margin-top: 7%;
+}
+
+article div.teabase ul li div.teabasetxt h4 {
+	font-size: 18px;
+	padding-bottom: 3px;
+	box-sizing: border-box;
+}
+
+article div.teabase ul li div.teabasetxt p {
+    font-size: 13px;
+}
+
+@media (max-width: 1280px) {
+	article div.teabase ul li {
+		display: block;
+		margin: 0 auto;
+	}
+	article div.teabase ul li img {
+		display: block;
+		margin: 0 auto;
+	}
+	article div.teabase ul li div.teabasetxt {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+@media (max-width: 1190px) {
+	
+article.title{
+	font-size: 20px;
+	line-height: 20px;
+}
+}
+@media (max-width: 1060px) {
+	article h2 {
+		font-size: 20px;
+	}
+	article div.pearl-wrap ul li {
+		width: 32.33%;
+		margin: 0 1% 0 0;
+	}
+	article div.pearl-wrap ul li:nth-child(1n) {
+		margin-bottom: 5px;
+	}
+	article div.pearl-wrap ul li:last-of-type{
+		margin: 0;
+	}
+}
+@media (max-width: 800px) {
+	article h2 span.txt-size {
+		font-size: 26px;
+	}
+	article h2 {
+		font-size: 18px;
+	}
+	article h2 span.txt-color {
+		font-size: 20px;
+	}
+	article p.content {
+		font-size: 14px;
+	}
+	
+	table th{
+		width: 100%;
+		display:block;
+	  }
+	  table tr > th {
+		height: 30px;
+		line-height: 30px;
+	  }
+	table td{
+		width: 100%;
+		display:block;
+		line-height: 30px;
+	  }
+	  table tr > td {
+		border-bottom: 1px solid #ccc;
+	  }
+	  
+	  table tr > td:last-child {
+		border: 0;
+	  }
+	  span.acctent {
+		font-size: 18px;
+	  }
+	  article div.teabase ul li {
+	  }
+	  article div.teabase ul li img{
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+	  }
+}
+@media (max-width: 680px) {
+	article.title p.title-top {
+		font-size: 15px;
+		line-height: 30px;
+	}
+	article.title p.title-bottom {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	article h2 span.txt-size {
+		font-size: 22px;
+	}
+	article h2 {
+		font-size: 16px;
+	}
+	article h2 span.txt-color {
+		font-size: 18px;
+	}
+	article p.content {
+		font-size: 12px;
+		margin: 0;
+	}
+	article div.pearl-wrap ul li h4 {
+		font-size: 14px;
+	}
+	article div.pearl-wrap ul li p {
+		font-size: 12px;
+	}
+	article div.pearl p {
+		font-size: 12px;
+	}
+	div.order-wrap p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	span.acctent {
+		font-size: 14px;
+	}
+	article div.teabase ul li div.teabasetxt h4 {
+		font-size: 14px;
+	}
+	article div.teabase ul li div.teabasetxt p {
+		font-size: 12px;
+	}
+}
+@media (max-width: 475px) {
+	article.title p.title-top {
+		width: 50%;
+	}
+	article.title p.title-bottom {
+		width: 50%;
+	}
+	article h2 span.txt-size {
+		font-size: 20px;
+	}
+	article h2 {
+		font-size: 14px;
+	}
+	article h2 span.txt-color {
+		font-size: 16px;
+	}
+	article p.content {
+		font-size: 10px;
+	}
+	article div.pearl-wrap ul li h4 {
+		font-size: 10px;
+	}
+	article div.pearl-wrap ul li p {
+		font-size: 10px;
+	}
+	article div.pearl p {
+		font-size: 10px;
+	}
+	div.order-wrap p {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	table tr:first-of-type > th {
+		font-size: 12px;
+	}
+	table tr:first-of-type > td {
+		font-size: 10px;
+	}
+	table tr > th {
+		font-size: 12px;
+	}
+	table tr > td {
+		font-size: 10px;
+	}
+	span.acctent {
+		font-size: 12px;
+	}
+	article div.teabase ul li div.teabasetxt h4 {
+		font-size: 12px;
+	}
+	article div.teabase ul li div.teabasetxt p {
+		font-size: 10px;
+	}
+}

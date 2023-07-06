@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/*INDEX*/
+header {
+	left: 0;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/***SECTION**********************************/
+
+section {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.map {
+	margin-bottom: -4px;
+	position: relative;
+}
+
+.search-wrap {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	border: 5px solid #d6eff3;
+	border-radius: 10px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.search-header {
+	padding: 15px 40px;
+	background-color: #d6eff3;
+}
+
+div.search-header h2 {
+	font-size: 22px;
+	text-align: center;
+	color: #333;
+	/*outline: 2px solid red;*/
+}
+
+div.search-bar {
+	position: relative;
+	padding: 10px 30px;
+	font-size: 15px;
+	border-bottom: 2px solid #ccc;
+}
+
+div.search-bar img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+
+ul#storeList {
+	padding: 0 30px;
+	font-size: 16px;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	height: 288px;
+}
+
+div.store_txt {
+	border-bottom: 2px solid #ccc;
+	padding: 10px 0 10px 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+p.name {
+	font-weight: bold;
+}
+
+p.tag {
+	font-size: 13px;
+}
+
+p.take {
+	font-size: 13px;
+}
+
+/* --------------------------------------- */
+div.title input {
+	border-bottom: 3px solid #ccc;
+	padding: 12px 55px;
+	position: absolute;
+	top: 25.8%;
+	left: 20%;
+	transform: translate(-50%);
+	background-color: #fff;
+}
+
+div.title input.search {
+	position: absolute;
+	top: 25.8%;
+	left: 27%;
+	transform: translate(-55%);
+	border: 0;
+	width: 30px;
+	height: 40px;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+div.title img {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 27%;
+	transform: translate(-55%);
+	top: 26%;
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+	.search-wrap {
+		width: 250px;
+	}
+	div.search-header h2 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 800px) {
+	section {
+		margin-top: 50px;
+	}
+	.search-wrap {
+		width: 200px;
+	}
+	.search-header {
+		padding: 10px 15px;
+	}
+	div.search-header h2 {
+		font-size: 18px;
+	}
+	div.search-bar {
+		padding: 10px 12px;
+	}
+	div.search-bar #storetext{
+		width: 80%;
+	}
+}
+@media (max-width: 640px) {
+	.search-wrap {
+		width: 150px;
+	}
+	.search-header {
+		padding: 10px 15px;
+	}
+	div.search-header h2 {
+		font-size: 14px;
+	}
+	div.search-bar {
+		padding: 5px 12px;
+	}
+	div.search-bar #storetext{
+		display: none;
+	}
+	ul#storeList {
+		padding: 0 10px;
+		height: 318px;
+	}
+	p.name {
+		font-size: 12px;
+	}
+	p.tag {
+		font-size: 10px;
+	}
+	p.take {
+		font-size: 10px;
+	}
+}
+@media (max-width: 500px) {
+	.search-wrap {
+		width: 120px;
+		height: 72px;
+		top: 0;
+		left: 3%;
+	}
+	.search-header {
+		padding: 10px 8px;
+	}
+	div.search-header h2 {
+		font-size: 12px;
+	}
+	div.search-bar img {
+		width: 20px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lt IE 9]>
+			<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<title>AMASVIN</title>
+
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/store.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<script src="jquery-1.12.4.min.js"></script>
+		<script src="js/sub.js"></script>
+		<script defer src="./index.js"></script>
+		<script src="js/store.js"></script>
+		<!--
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=<API 키>&callback=initMap"></script>-->
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="inner clearfix">
+				<div class="inner-wrap">
+					<h1 class="logo">
+						<a href="../../index.html"><img src="images/logo.png" alt="아마스빈 로고" /></a>
+					</h1>
+					<nav>
+						<ul class="gnb clearfix">
+							<li><a href="#">BRAND</a></li>
+							<li><a href="#">MENU</a></li>
+							<li><a href="../MEMBERSHIP/membership.html">MEMBERSHIP</a></li>
+							<li><a href="../FRANCHISE/franchise.html">FRANCHISE</a></li>
+							<li><a href="../STORE/store.html">STORE</a></li>
+						</ul>
+
+						<div class="sub_wrap clearfix">
+							<ul class="brand">
+								<li><a href="../BRAND/story.html">Story&amp;B.I</a></li>
+								<li><a href="../BRAND/material.html">재료</a></li>
+								<li><a href="../BRAND/character.html">캐릭터</a></li>
+							</ul>
+							<ul class="menu">
+								<li><a href="../MENU/howtoorder.html">주문방법</a></li>
+								<li><a href="../MENU/coffee.html">커피</a></li>
+								<li><a href="../MENU/latte.html">밀크티&amp;라떼</a></li>
+								<li><a href="../MENU/yogurt.html">요거트&amp;하동녹차&amp;흑당</a></li>
+								<li><a href="../MENU/Smoothie.html">쉐이크&amp;스무디</a></li>
+								<li><a href="../MENU/Smoothie.html">에이드·소다&amp;스페셜</a></li>
+								<li><a href="../MENU/juice.html">과일주스&amp;생과일</a></li>
+								<li><a href="../MENU/bread.html">빵</a></li>
+							</ul>
+							<!--<ul>//MEMBERSHIP
+                <li><a href="#"></a></li>
+            </ul>-->
+							<ul class="franchise">
+								<li><a href="../FRANCHISE/franchise.html">개설절차</a></li>
+							</ul>
+							<ul class="store">
+								<li><a href="../STORE/store.html">매장찾기</a></li>
+							</ul>
+							<!--::after-->
+						</div>
+					</nav>
+					<button class="menu-button"><img src="images/button.png" alt="버튼" /></button>
+				</div>
+			</div>
+		</header>
+        <header class="header mo">
+			<a class="home" href="/index.html"></a>
+			<div class="btn"></div>
+			<div onclick="history.back();" class="page_cover"></div>
+
+			<div id="menu">
+				<ul class="nav">
+					<li>
+						<a>BRAND</a>
+						<ul class="sub_mobile">
+							<li><a href="/sub/BRAND/story.html">STORY&B.I</a></li>
+							<li><a href="/sub/BRAND/material.html">재료</a></li>
+							<li><a href="/sub/BRAND/character.html">캐릭터</a></li>
+						</ul>
+					</li>
+					<li>
+						<a>MENU</a>
+						<ul class="sub_mobile">
+							<li><a href="/sub/MENU/howtoorder.html">주문방법</a></li>
+							<li><a href="/sub/MENU/coffee.html">커피</a></li>
+							<li><a href="/sub/MENU/latte.html">밀크티&라떼</a></li>
+							<li><a href="/sub/MENU/yogurt.html">요거트&하동녹차&흑당</a></li>
+							<li><a href="/sub/MENU/smoothie.html">쉐이크&스무디</a></li>
+							<li><a href="/sub/MENU/ade.html">에이드·소다&스페셜</a></li>
+							<li><a href="/sub/MENU/juice.html">과일주스&생과일</a></li>
+							<li><a href="/sub/MENU/bread.html">빵</a></li>
+						</ul>
+					</li>
+					<li><a href="/sub/MEMBERSHIP/membership.html">MEMBERSHIP</a></li>
+					<li><a href="/sub/FRANCHISE/franchise.html">FRANCHISE</a></li>
+					<li>
+						<a>STORE</a>
+						<ul class="sub_mobile">
+							<li><a href="/sub/STORE/store.html">매장찾기</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div onclick="history.back();" class="close"></div>
+			</div>
+		</header>
+		<!--------SECTION---------------->
+		<section>
+			<!--MAP-->
+			<div class="map" id="inf">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62918.18084607274!2d126.90141466291385!3d37.471698123848796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7JWE66eI7Iqk67mI!5e0!3m2!1sko!2skr!4v1674047956375!5m2!1sko!2skr"
+					width="100%"
+					height="600px"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+                <div class="search-wrap">
+                    <div class="search-header">
+                        <h2>아마스빈 매장찾기</h2>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" name="storetext" id="storetext" placeholder="지점을 입력해주세요." />
+                        <input type="submit" class="search" value="" /><img src="images/search_icon.png" alt="돋보기" />
+                    </div>
+    
+                        <ul id="storeList">
+                            <li data-lng="127.059475" data-lat="37.514524" data-no="31">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        상수역점
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">와우산로 51</span><span class="number" title="number">ㆍ02-3144-1227</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.0571155943" data-lat="37.5129451363" data-no="142">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        이대점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">신촌동 이화여대7길</span><span class="number" title="number">ㆍ02-393-1598</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.059159722" data-lat="37.5118232811" data-no="29">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        숙대점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">1층, 35 청파길47길</span><span class="number" title="number">ㆍ02-703-2218</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.064150" data-lat="37.514631" data-no="49">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        보라매점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">신대방동 498-9번지 1층 동작구 서...</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.0585974668" data-lat="37.5102341897" data-no="55">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        노량진점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">노량진1동 만양로 112</span><span class="number" title="number">ㆍ070-7808...</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃ㆍ배달 서..
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.0610225377" data-lat="37.5103554984" data-no="30">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        여의도 2호점
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">여의도동 35-2</span><span class="number" title="number">ㆍ02-785-5008</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃ㆍ배달안됨
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.0594430149" data-lat="37.5096318963" data-no="203">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        동국대점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">여의도동 35-2</span><span class="number" title="number">ㆍ02-2285-5290</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.0608089556" data-lat="37.5091915107" data-no="209">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        양천구청점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">신정6동 321-6</span><span class="number" title="number">ㆍ02-2650-8885</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.054054" data-lat="37.510666" data-no="155">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        강남 1호점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">역삼동 818-8</span><span class="number" title="number">ㆍ02-568-0044</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                            <li data-lng="127.0587759480173" data-lat="37.50706256458109" data-no="351">
+                                <div class="store_txt">
+                                    <p class="name">
+                                        우장산역점 
+                                    </p>
+                                    <p class="tag">
+                                        <span class="city" title="city">내발산동 722-14</span><span class="number" title="number">ㆍ02-2065-9923</span>
+                                    </p>
+                                    <p class="take">
+                                        매장 내 식사ㆍ테이크아웃
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+			</div>
+		</section>
+
+		<footer>
+			<h3>AMASVIN</h3>
+
+			<div class="wrap">
+				<div>
+					<ul class="inquiry clearfix">
+						<li>전국 가맹문의 : 1899-8608</li>
+						<li>서울, 경기, 충청도 가맹문의 : 02-577-7044</li>
+						<li class="inquiry_txt"><a href="#">고객문의</a></li>
+					</ul>
+
+					<ul class="footer-top">
+						<li>사업자등록번호 : 605-86-27507</li>
+						<li>amasvin_sns@naver.com</li>
+						<li>(C)BKC CO.LTD ALL Rights Reserved</li>
+					</ul>
+
+					<ul class="footer-center">
+						<li>(주) 비케이컴퍼니 대표이사 이옥기</li>
+						<li>TEL : 1899-8608</li>
+					</ul>
+
+					<ul class="footer-bottom">
+						<li>부산 진구 중앙대로 666번길 17 8층</li>
+					</ul>
+				</div>
+
+				<div class="sns">
+					<a href="https://www.facebook.com/amasvin.korea/"><img src="images/facebook_social_icon.png" alt="페이스북 바로가기" /></a>
+					<a href="https://www.instagram.com/amasvin_korea/"><img src="images/_instagram_icon.png" alt="인스타그램 바로가기" /></a>
+					<a href="https://blog.naver.com/amasvin_blog"><img src="images/blog_icon%20.png" alt="블로그 바로가기" /></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

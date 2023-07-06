@@ -1,0 +1,529 @@
+@charset "utf-8";
+/*
+
+body {
+     overflow-x: hidden;
+}
+*/
+
+header {
+	left: 0;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+section {
+}
+div.inner {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	padding: 0 16.66% 0 16.66%;
+	box-sizing: border-box;
+}
+article.main {
+	width: 100%;
+	height: 650px;
+	background: url(../images/slider_bg.png) repeat-x;
+	margin-bottom: -90px;
+	margin-top: -99px;
+}
+
+article.main-mo {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.membership-wrap2.right {
+	background-color: #d6eff3;
+	width: 100%;
+	height: 360px;
+	box-sizing: border-box;
+	max-width: 1280px;
+	padding: 0 5% 0 5%;
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.membership-phone {
+	width: 50%;
+}
+
+div.membership-phone img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+article.main .slide_box {
+	/*배경을 제외한 컨텐츠 너비 설정*/
+	/*width: 100%;*/
+	/*height: 700px;*/
+	width: 1280px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	/*버튼 기준*/
+	overflow: hidden;
+	/*outline: 2px solid blue;*/
+}
+
+.slide_box #gallery {
+	/*슬라이드 시 움직여야 하는 대상*/
+	width: 600%;
+	/*1280*5배*/
+	height: 100%;
+	/*width: 7680px;*/
+}
+
+.slide_box #gallery li {
+	transition: "all .5s ease-out";
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	position: relative;
+	/*.phone, .txtbox의 기준!*/
+	/*outline: 3px solid red;*/
+}
+
+.slide_box #gallery li .phone {
+	width: 325px;
+	text-align: center;
+	position: absolute;
+}
+
+/* 각 슬라이드 이미지 박스 위치 설정 */
+/*.phone {
+    outline: 3px solid red;
+}*/
+
+.slide_box #gallery li.phonebox .phone {
+	bottom: 0;
+	right: 300px;
+}
+
+.slide_box #gallery li.phonebox .phone::after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 2px;
+	background-color: #000;
+	position: absolute;
+	top: 200px;
+	left: -99px;
+}
+
+.slide_box #gallery li.phonebox2 .phone {
+	bottom: 0;
+	right: 300px;
+}
+
+.slide_box #gallery li.phonebox2 .phone::after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 2px;
+	background-color: #000;
+	position: absolute;
+	top: 315px;
+	left: -96px;
+}
+
+/*3*/
+.slide_box #gallery li.phonebox3 .phone {
+	bottom: 0;
+	left: 330px;
+}
+
+.slide_box #gallery li.phonebox3 .phone::after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 2px;
+	background-color: #000;
+	position: absolute;
+	top: 191px;
+	left: 160px;
+}
+
+/*4*/
+.slide_box #gallery li.phonebox4 .phone {
+	bottom: 0;
+	left: 330px;
+}
+
+.slide_box #gallery li.phonebox4 .phone::after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 2px;
+	background-color: #000;
+	position: absolute;
+	top: 316px;
+	left: 163px;
+}
+
+/*5*/
+.slide_box #gallery li.phonebox5 .phone {
+	bottom: 0;
+	left: 330px;
+}
+
+.slide_box #gallery li.phonebox5 .phone::after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 2px;
+	background-color: #000;
+	position: absolute;
+	top: 69px;
+	left: 179px;
+}
+
+.phone p {
+	font-size: 18px;
+	width: 60%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.phone .img-box {
+	width: 100%;
+}
+
+.phone .img-box img {
+	width: 60%;
+	display: block;
+}
+
+.txtbox {
+	position: absolute;
+	/*outline: 2px solid blue;*/
+}
+
+.txtbox h2 {
+	font-size: 25px;
+	margin-bottom: 12px;
+}
+
+.txtbox p {
+	font-size: 16px;
+}
+
+/* 각 슬라이드 텍스트 박스 위치설정 */
+/*1*/
+.slide_box #gallery li.phonebox .txtbox {
+	left: 330px;
+	top: 370px;
+}
+
+.slide_box #gallery li.phonebox .txtbox h2 {
+	text-align: right;
+}
+
+.slide_box #gallery li.phonebox .txtbox p {
+	text-align: right;
+}
+
+/*2*/
+.slide_box #gallery li.phonebox2 .txtbox {
+	left: 261px;
+	top: 489px;
+}
+
+.slide_box #gallery li.phonebox2 .txtbox h2 {
+	text-align: right;
+}
+
+.slide_box #gallery li.phonebox2 .txtbox p {
+	text-align: right;
+}
+
+/*3*/
+.slide_box #gallery li.phonebox3 .txtbox {
+	left: 674px;
+	top: 357px;
+}
+
+.slide_box #gallery li.phonebox3 .txtbox h2 {
+	text-align: left;
+}
+
+.slide_box #gallery li.phonebox3 .txtbox p {
+	text-align: left;
+}
+
+/*4*/
+.slide_box #gallery li.phonebox4 .txtbox {
+	left: 666px;
+	top: 467px;
+}
+
+.slide_box #gallery li.phonebox4 .txtbox h2 {
+	text-align: left;
+}
+
+.slide_box #gallery li.phonebox4 .txtbox p {
+	text-align: left;
+}
+
+/*5*/
+.slide_box #gallery li.phonebox5 .txtbox {
+	left: 660px;
+	top: 266px;
+	font-size: 20px;
+}
+
+.slide_box #gallery li.phonebox5 h3 {
+	text-align: left;
+}
+
+.slide_box #gallery li.phonebox5 h2 {
+	font-size: 28px;
+	text-indent: -90px;
+}
+
+.slide_box #gallery li.phonebox5 h2.DWtxt {
+	font-size: 28px;
+	text-indent: 10px;
+}
+
+.slide_box #gallery li.phonebox5 p {
+	text-align: center;
+}
+
+.slide_box #gallery li.phonebox5 div.Download {
+	position: absolute;
+	left: 687px;
+	top: 415px;
+}
+
+.slide_box #gallery li.phonebox5 div.Download h2 {
+	font-size: 22px;
+}
+
+.slide_box #gallery li.phonebox5 div.Download img {
+	margin-top: 20px;
+}
+
+.slide_box .btngrp {
+	position: absolute;
+	left: 100px;
+	bottom: 11px;
+}
+
+.slide_box .btngrp li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.slide_box .btngrp li.selB {
+	color: red;
+}
+
+/*COUPON*/
+article.coupon {
+	margin-top: 150px;
+	width: 100%;
+	/*height: 450px;*/
+	position: relative;
+	margin-bottom: 150px;
+	/*outline: 2px solid red;*/
+}
+
+article.coupon div.title-wrap {
+	background-color: #d6eff3;
+	width: 30%;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: #333;
+	margin-bottom: 50px;
+}
+
+article.coupon div.title-wrap p {
+	font-size: 22px;
+	line-height: 50px;
+}
+
+article.coupon div.copon-wrap {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+article.coupon p {
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+article.coupon div.couponImg {
+	width: 65%;
+	/*position: absolute;
+    left: 860px;
+    top: 150px;
+    width: 100%;*/
+	float: right;
+	display: inline- block;
+	text-align: right;
+}
+
+article.coupon div.couponImg img {
+	/*float: left;*/
+
+	width: 45%;
+	box-shadow: 1px 1px 15px 1px #ccc;
+}
+
+article.coupon div.couponImg img:first-child {
+	margin-right: 30px;
+}
+
+/*GIFT*/
+
+article.gift {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	box-sizing: border-box;
+	/*background-color: yellow;*/
+}
+
+article.gift div.title-wrap {
+	background-color: #d6eff3;
+	width: 30%;
+	float: right;
+	text-align: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	color: #333;
+	margin-bottom: 50px;
+}
+
+article.gift div.title-wrap p {
+	font-size: 22px;
+	line-height: 50px;
+}
+
+div.gift-wrap {
+	display: inline-block;
+}
+div.gift-wrap p {
+	width: 100%;
+	margin-bottom: 50px;
+}
+article.gift div.giftImg {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+article.gift div.giftImg img {
+	width: 32%;
+	height: 100%;
+	box-shadow: 1px 1px 15px 1px #ccc;
+	box-sizing: border-box;
+	object-fit: contain;
+}
+
+article.gift div.giftImg img {
+	margin-right: 1%;
+}
+article.gift div.giftImg img:last-child {
+	margin: 0;
+}
+@media (max-width: 1000px) {
+	article.coupon div.copon-wrap {
+		display: inline-block;
+	}
+	article.coupon p {
+		margin-bottom: 30px;
+	}
+	article.coupon div.couponImg {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	article.gift div.giftImg img {
+		width: 30%;
+	}
+}
+@media (max-width: 800px) {
+	article.main {
+		display: none;
+	}
+	article.main-mo {
+		display: inline-block;
+	}
+	article.coupon div.title-wrap p {
+		font-size: 18px;
+	}
+	article.coupon div.copon-wrap {
+		padding: 0 10%;
+	}
+	article.gift div.title-wrap p {
+		font-size: 18px;
+	}
+	div.gift-wrap {
+		padding: 0 10%;
+	}
+
+	article.gift div.giftImg img {
+		width: 31%;
+	}
+}
+
+@media (max-width: 710px) {
+	.membership-wrap2.right {
+		height: 290px;
+	}
+	article.gift div.giftImg img {
+		width: 31%;
+	}
+	div.membership-phone {
+		min-width: 300px;
+	}
+}
+@media (max-width: 460px) {
+	.membership-wrap2.right {
+		height: 240px;
+	}
+	div.membership-phone {
+		min-width: 250px;
+	}
+	article.coupon div.title-wrap {
+		width: 40%;
+	}
+	article.coupon div.title-wrap p {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	article.coupon p {
+		font-size: 12px;
+	}
+	article.coupon div.couponImg img {
+		width: 38%;
+	}
+	article.gift div.title-wrap {
+		width: 40%;
+	}
+	article.gift div.title-wrap p {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	div.gift-wrap p {
+		font-size: 12px;
+		margin-bottom: 30px;
+	}
+	article.gift div.giftImg img {
+		width: 31%;
+	}
+}

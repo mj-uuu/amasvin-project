@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+    color: #333;
+}
+
+main,
+header,
+section,
+nav,
+footer,
+aside,
+article,
+figure {
+    display: block;
+}
+
+/*가상선택자*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}

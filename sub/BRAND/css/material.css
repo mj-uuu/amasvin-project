@@ -1,0 +1,385 @@
+header {
+	left: 0;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.inner {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.txt {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+section {
+	margin-top: 100px;
+}
+
+/*GREEN-TEA*/
+
+article.green-tea {
+	width: 100%;
+	position: relative;
+	margin-bottom: 150px;
+	/*outline: 2px solid red;*/
+}
+
+article.green-tea h1 {
+	font-size: 22px;
+	background-color: #d6eff3;
+	width: 30%;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+article.green-tea div.tea-box {
+	height: 600px;
+	position: relative;
+	width: 100%;
+	background-color: #000;
+}
+
+article.green-tea div.tea-box::after {
+	content: "";
+	display: block;
+	background: url("../images/BRAND_%EC%9E%AC%EB%A3%8C_greentea.jpg") no-repeat 100% / cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+}
+
+article.green-tea div.tea-box div.tea-txt1 {
+	/* width: 1280px; */
+	margin: 0 auto;
+	position: absolute;
+	left: 16.66%;
+	top: 120px;
+	z-index: 1;
+	/*outline: 2px solid red;*/
+}
+
+article.green-tea div.tea-box h2 {
+	color: #fff;
+	font-size: 28px;
+	margin-bottom: 10px;
+	z-index: 1;
+}
+
+article.green-tea div.tea-box p {
+	color: #fff;
+	line-height: 33px;
+	z-index: 1;
+}
+
+article.green-tea div.tea-txt2 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: right;
+	color: #333;
+	margin-top: 10px;
+	padding-right: 16.66%;
+	box-sizing: border-box;
+}
+
+/*YOUGURT*/
+
+article.yorgurt {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 150px;
+	/*outline: 2px solid red;*/
+}
+
+article.yorgurt div.ygt-box {
+	padding-left: 16.66%;
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+	/*outline: 2px solid blue;*/
+}
+
+article.yorgurt div.ygt-box h2 {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+article.yorgurt div.ygt-box p {
+	line-height: 33px;
+}
+
+article.yorgurt div.ygtImg p {
+	font-weight: bold;
+}
+
+article.yorgurt div.ygtImg p span {
+}
+
+article.yorgurt div.ygtImg {
+	width: 50%;
+	float: left;
+	margin-bottom: 10px;
+	padding-right: 16.66%;
+	box-sizing: border-box;
+	/*outline: 2px solid red;*/
+}
+
+article.yorgurt div.ygtImg img {
+	width: 100%;
+	display: block;
+}
+
+div.ygtImg div.yorgurt-txt2 {
+	width: 100%;
+	margin: 0 auto;
+	color: #333;
+	margin-top: 10px;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+/*ROASTERY*/
+article.roastery {
+	width: 100%;
+	position: relative;
+}
+
+article.roastery div.roastery-txt {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-left: 16.66%;
+	box-sizing: border-box;
+}
+
+article.roastery div.roastery-box div.roastery-txt2 {
+	margin: 0 auto;
+	left: 16.66%;
+	top: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+article.roastery div.roastery-box div.roastery-txt2 p {
+	position: absolute;
+	color: #fff;
+	padding-left: 16.66%;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 24px;
+	z-index: 1;
+}
+
+article.roastery div.roastery-box {
+	height: 600px;
+	position: relative;
+	width: 100%;
+	background-color: #000;
+}
+
+article.roastery div.roastery-box::after {
+	content: "";
+	display: block;
+	background: url(../images/BRAND_%EB%8F%84%EC%8B%9C%EB%86%8D%EA%B0%80%EC%BD%94%ED%8E%98%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC.png) no-repeat 100% / cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+}
+
+@media (max-width: 1190px) {
+	article.green-tea h1 {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	article.green-tea div.tea-box div.tea-txt1 {
+		position: absolute;
+		left: 9.66%;
+	}
+	article.green-tea div.tea-box h2 {
+		font-size: 22px;
+	}
+	article.green-tea div.tea-box p {
+		font-size: 15px;
+	}
+
+	article.green-tea div.tea-txt2 span.txt {
+		font-size: 16px;
+	}
+	article.green-tea div.tea-txt2 span {
+		font-size: 14px;
+	}
+	article.yorgurt div.ygt-box {
+		padding-left: 10%;
+		box-sizing: border-box;
+	}
+	article.yorgurt div.ygt-box h2 {
+		font-size: 22px;
+	}
+	article.yorgurt div.ygt-box p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 10%;
+		box-sizing: border-box;
+	}
+
+	article.yorgurt div.ygt-box p br {
+		display: none;
+	}
+	article.yorgurt div.ygtImg {
+		padding-right: 10%;
+		box-sizing: border-box;
+	}
+	div.ygtImg div.yorgurt-txt2 {
+		margin: 0;
+	}
+	.txt {
+		font-size: 15px;
+	}
+	span {
+		font-size: 12px;
+	}
+	article.roastery div.roastery-txt {
+		padding: 0 10% 0 10%;
+		box-sizing: border-box;
+	}
+
+	article.roastery div.roastery-box div.roastery-txt2 {
+		padding: 0 10% 0 10%;
+		box-sizing: border-box;
+	}
+	article.roastery div.roastery-box div.roastery-txt2 p {
+		font-size: 20px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 780px) {
+	article.roastery div.roastery-box div.roastery-txt2 p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+
+@media (max-width: 630px) {
+	article.yorgurt div.ygt-box h2 br {
+		display: none;
+	}
+	article.yorgurt div.ygt-box {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	article.yorgurt div.ygtImg {
+		width: 100%;
+		padding: 0 10% 0 10%;
+	}
+}
+
+@media (max-width: 580px) {
+	article.green-tea div.tea-box div.tea-txt1 {
+		position: absolute;
+		left: 0;
+	}
+	article.green-tea div.tea-box h2 {
+		padding-left: 10%;
+		box-sizing: border-box;
+	}
+	article.green-tea div.tea-box p {
+		box-sizing: border-box;
+		padding: 0 10% 0 10%;
+	}
+	article.green-tea div.tea-box p br {
+		display: none;
+	}
+	article.roastery div.roastery-box div.roastery-txt2 {
+		padding: 0;
+	}
+	article.roastery div.roastery-box div.roastery-txt2 p {
+		box-sizing: border-box;
+		padding: 0 10% 0 10%;
+	}
+	article.roastery div.roastery-box div.roastery-txt2 p br {
+		display: none;
+	}
+}
+
+@media (max-width: 440px) {
+	article.green-tea h1 {
+		font-size: 16px;
+	}
+	article.green-tea div.tea-box h2 {
+		font-size: 16px;
+	}
+	article.green-tea div.tea-box p {
+		font-size: 12px;
+	}
+	article.green-tea div.tea-txt2 span.txt {
+		font-size: 14px;
+	}
+	article.green-tea div.tea-txt2 span {
+		font-size: 12px;
+	}
+	article.yorgurt div.ygt-box {
+		padding-right: 10%;
+	}
+	article.yorgurt div.ygt-box h2 {
+		font-size: 16px;
+	}
+	article.yorgurt div.ygt-box p {
+		padding: 0;
+	}
+	.txt {
+		font-size: 14px;
+	}
+	article.roastery div.roastery-txt span:last-child {
+		font-size: 12px;
+	}
+	article.roastery div.roastery-box div.roastery-txt2 p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 400px) {
+	article.green-tea h1 {
+		font-size: 15px;
+	}
+	article.green-tea div.tea-box h2 {
+		font-size: 15px;
+	}
+	article.green-tea div.tea-box p {
+		font-size: 10px;
+	}
+	article.green-tea div.tea-txt2 span.txt {
+		font-size: 12px;
+	}
+	article.green-tea div.tea-txt2 span {
+		font-size: 10px;
+	}
+	article.yorgurt div.ygt-box h2 {
+		font-size: 15px;
+	}
+	article.yorgurt div.ygt-box p {
+		font-size: 12px;
+	}
+	.txt {
+		font-size: 12px;
+	}
+	article.roastery div.roastery-txt span:last-child {
+		font-size: 10px;
+	}
+	article.roastery div.roastery-box div.roastery-txt2 p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
