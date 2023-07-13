@@ -49,7 +49,7 @@ article.green-tea div.tea-box {
 article.green-tea div.tea-box::after {
 	content: "";
 	display: block;
-	background: url("../images/BRAND_%EC%9E%AC%EB%A3%8C_greentea.jpg") no-repeat 100% / cover;
+	background: url("../images/brand_%EC%9E%AC%EB%A3%8C_greentea.jpg") no-repeat 100% / cover;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -188,7 +188,7 @@ article.roastery div.roastery-box {
 article.roastery div.roastery-box::after {
 	content: "";
 	display: block;
-	background: url(../images/BRAND_%EB%8F%84%EC%8B%9C%EB%86%8D%EA%B0%80%EC%BD%94%ED%8E%98%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC.png) no-repeat 100% / cover;
+	background: url(../images/brand_%EB%8F%84%EC%8B%9C%EB%86%8D%EA%B0%80%EC%BD%94%ED%8E%98%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC.png) no-repeat 100% / cover;
 	background-position: center;
 	position: absolute;
 	top: 0;
