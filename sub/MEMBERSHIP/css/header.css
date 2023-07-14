@@ -269,7 +269,7 @@ html.open {
 	}
 	a.home {
 		display: inline-block;
-		background: url(../images/logo2.png) no-repeat 100%;
+		background: url(/images/logo2.png) no-repeat 100%;
 		background-size: contain;
 		position: absolute;
 		left: 2%;
