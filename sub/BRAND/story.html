@@ -2,24 +2,24 @@
 <html lang="ko">
 	<head>
 		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lt IE 9]>
-			<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<title>story.b.i</title>
-
-		<link rel="stylesheet" href="css/reset.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>송명주 포트폴리오</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/story.css" />
 		<link rel="stylesheet" href="css/footer.css" />
-
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 		<script src="jquery-1.7.2.min.js"></script>
 		<script src="jquery-ui.min.js"></script>
 		<script src="js/sub.js"></script>
 		<script src="js/story.js"></script>
-	</head>
 
+		<!-- <script src="/js/main.js"></script> -->
+	</head>
 	<body>
 		<header class="header">
 			<div class="inner clearfix">
@@ -109,95 +109,92 @@
 				<div onclick="history.back();" class="close"></div>
 			</div>
 		</header>
-		<section id="page1" class="page">
-			<article class="minfo">
-				<div class="title">
-					<h3>"빨리 달리기 보다 <br /><span class="run">오래 달리겠습니다."</span></h3>
-					<p>I'll run longer then running fast.</p>
-				</div>
-
-				<div class="side">
-					<h3>AMASVIN SINCE 2008</h3>
-
-					<p>
-						아무도 찾지 않던 오픈 첫 날 2년간의 적자로<br />
-						삶의 끝에 홀로 섰지만 한 명의 손님이 반갑고<br />
-						고마웠습니다.
-					</p>
-
-					<p>보답하고 싶었고, 더 좋은 것을 드리고 싶었습<br />니다. 돈이 아닌 소통을 좋아했던 순수한 마음<br />이 지금껏 아마스빈을 있게 한 원동력이 되었<br />습니다.</p>
-
-					<p>
-						조금 느릴지 모르지만 더 오래 달릴 수 있도록<br />
-						항상 노력하겠습니다.
-					</p>
-				</div>
-			</article>
-			<!-- <h2>"빨리 달리기 보다</h2>
-            <h2 class="txtbox">오래 달리겠습니다."</h2>
-            <p class="txtbox2">I'll run longer then running fast.</p>
-            <h3>AMASVIN SINCE 2008</h3>
-            <p>아무도 찾지 않던 오픈 첫 날 2년간의 적자로 <br>삶의 끝에 홀로 섰지만 한 명의 손님이 반갑고 <br>고마웠습니다. <br><br> 보답하고 싶었고, 더 좋은 것을 드리고 <br>싶었습니다. 돈이 아닌 소통을 좋아했던 순수한 <br>마음이 지금껏 아마스빈을 있게 한 원동력이 <br>되었습니다.<br><br>조금 느릴지 모르지만 더 오래 달릴 수 있도록 <br>항상 노력하겠습니다.</p> -->
-		</section>
-		<section id="page2" class="page">
-			<article class="minfo2">
-				<div class="title2">
-					<h3>가치를 만들자</h3>
-					<p>Let's create Value.</p>
-				</div>
-
-				<div class="side2">
-					<p>
-						사람들이 더 나은 음료를 가장 합리적인 가격으로 경험할 수 있도록 하는 것이 <br />고객님들께 받은 사랑에 보답하는 것이라 생각하는 가치지향적 회사입니다. <br />생생하고 건강한 맛과 경험을
-						드리고자 연구하고 노력하고 있습니다.
-					</p>
-				</div>
-			</article>
-		</section>
-		<section id="page3" class="page">
-			<article class="minfo3">
-				<div class="title3">
-					<h3>오랫동안 사랑하고, 사랑받고 싶습니다.</h3>
-					<p>I'b like to love you and loved for a long time.</p>
-				</div>
-			</article>
-		</section>
-
-		<!-------------------------------------------------->
-
-		<footer id="page4" class="page">
-				<h3>AMASVIN</h3>
-	
-				<div class="wrap">
-					<div>
-						<ul class="inquiry clearfix">
-							<li>전국 가맹문의 : 1899-8608</li>
-							<li>서울, 경기, 충청도 가맹문의 : 02-577-7044</li>
-							<li class="inquiry_txt"><a href="#">고객문의</a></li>
-						</ul>
-	
-						<ul class="footer-top">
-							<li>사업자등록번호 : 605-86-27507</li>
-							<li>amasvin_sns@naver.com</li>
-							<li>(C)BKC CO.LTD ALL Rights Reserved</li>
-						</ul>
-	
-						<ul class="footer-center">
-							<li>(주) 비케이컴퍼니 대표이사 이옥기</li>
-							<li>TEL : 1899-8608</li>
-						</ul>
-	
-						<ul class="footer-bottom">
-							<li>부산 진구 중앙대로 666번길 17 8층</li>
-						</ul>
+		<!-- Swiper -->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div id="page" class="tit-wrap">
+						<div class="tit-wrap">
+							<p>
+								<span>가치를 만들자</span> <br />Let's create Value.
+							</p>
+						</div>
 					</div>
-	
-					<div class="sns">
+				</div>
+
+				<div class="swiper-slide">
+					<div id="page" class="tit-wrap">
+						<p class="tit-p">
+							사람들이 더 나은 음료를 가장 합리적인 가격으로 경험할 수 있도록 하는 것이 <br />고객님들께 받은 사랑에 보답하는 것이라 생각하는 가치지향적 회사입니다. <br />생생하고 건강한 맛과 경험을
+							드리고자 연구하고 노력하고 있습니다.
+						</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="page" class="tit-wrap">
+						<p> 
+							<span>오랫동안 사랑하고, 사랑받고 싶습니다.</span><br />I'b like to love you and loved for a long time.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<footer id="page4" class="page">
+			<h3>AMASVIN</h3>
+
+			<div class="wrap">
+				<div>
+					<ul class="inquiry clearfix">
+						<li>전국 가맹문의 : 1899-8608</li>
+						<li>서울, 경기, 충청도 가맹문의 : 02-577-7044</li>
+						<li class="inquiry_txt"><a href="#">고객문의</a></li>
+					</ul>
+
+					<ul class="footer-top">
+						<li>사업자등록번호 : 605-86-27507</li>
+						<li>amasvin_sns@naver.com</li>
+						<li>(C)BKC CO.LTD ALL Rights Reserved</li>
+					</ul>
+
+					<ul class="footer-center">
+						<li>(주) 비케이컴퍼니 대표이사 이옥기</li>
+						<li>TEL : 1899-8608</li>
+					</ul>
+
+					<ul class="footer-bottom">
+						<li>부산 진구 중앙대로 666번길 17 8층</li>
+					</ul>
+				</div>
+
+				<div class="sns">
 						<a href="https://www.facebook.com/amasvin.korea/"><img src="../../images/facebook_social_icon.png" alt="페이스북 바로가기" /></a>
 						<a href="https://www.instagram.com/amasvin_korea/"><img src="../../images/instagram_icon.png" alt="인스타그램 바로가기" /></a>
 						<a href="https://blog.naver.com/amasvin_blog"><img src="../../images/blog_icon%20.png" alt="블로그 바로가기" /></a>
-					</div>
 				</div>
+			</div>
 		</footer>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				direction: "vertical",
+				mousewheel: true,
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				  on: {
+				reachEnd: function () {
+					swiper.mousewheel.disable();
+					}
+				}
+			});
+			 window.addEventListener('wheel', function (event) {
+				if (event.deltaY < 0) {
+					swiper.mousewheel.enable();
+					} else if (event.deltaY > 0) {
+				}
+			});
+		</script>
 	</body>
 </html>
