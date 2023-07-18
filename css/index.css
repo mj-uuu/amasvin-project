@@ -602,7 +602,7 @@ article.store div.map {
 }
 
 article.store div.map > img {
-	width: 500px;
+	width: auto;
 	height: 200px;
 	position: absolute;
 	left: 0;
