@@ -1,15 +1,14 @@
 html,
 body {
-  position: relative;
-  height: 100%;
-  font-family: 'Pretendard-Regular';
-  color: #333;
-  cursor: url(http://www.haneul92.com/css/../images/cursor.png),auto;
-  margin: 0;
-  padding: 0;
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+	position: relative;
+	height: 100%;
+	font-family: "Pretendard-Regular";
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
 }
 header {
 	left: 0;
@@ -17,17 +16,28 @@ header {
 	border-bottom: 1px solid #ccc;
 }
 .swiper {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
 	background: url("../images/amasvin2008.png") no-repeat 100% / cover;
+	width: 100%;
+	height: 60%;
 }
 
+.swiper-slide2 {
+	width: 100%;
+	height: 50%;
+}
+
+.swiper-slide2 p.tit-p {
+	color: #333;
+	font-weight: bold;
+}
 #page {
 	position: relative;
 	z-index: 1;
@@ -49,80 +59,78 @@ header {
 }
 
 div.tit-wrap {
-  display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
 }
-
 
 div.tit-wrap p {
-  color: #fff;
-  z-index: 1;
-  font-size: 22px;
-  line-height: 32px;
+	color: #fff;
+	z-index: 1;
+	text-align: center;
+	font-size: 22px;
+	line-height: 32px;
 }
 
-
 div.tit-wrap span {
-  font-size: 36px;
-  font-weight: bold;
+	font-size: 36px;
+	font-weight: bold;
 }
 
 @media (max-width: 850px) {
-  div.tit-wrap p {
-    font-size: 18px;
-  }
-  div.tit-wrap span {
-    font-size: 32px;
-  }
+	div.tit-wrap p {
+		font-size: 18px;
+	}
+	div.tit-wrap span {
+		font-size: 32px;
+	}
 }
 
-
 @media (max-width: 750px) {
-  div.tit-wrap p {
-    font-size: 16px;
-    line-height: 25px;
-  }
-  div.tit-wrap span {
-    font-size: 30px;
-  }
+	div.tit-wrap p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	div.tit-wrap span {
+		font-size: 30px;
+	}
 }
 
 @media (max-width: 630px) {
-  div.tit-wrap p {
-    font-size: 15px;
-  }
-  div.tit-wrap span {
-    font-size: 24px;
-  }
-  p.tit-p br{
-    display:none !important;
- }
+	div.tit-wrap p {
+		font-size: 15px;
+	}
+	div.tit-wrap span {
+		font-size: 24px;
+	}
+	p.tit-p br {
+		display: none !important;
+	}
 }
 
 @media (max-width: 440px) {
-  div.tit-wrap p {
-    font-size: 12px;
-  }
-  div.tit-wrap span {
-    font-size: 20px;
-  }
+	div.tit-wrap p {
+		font-size: 12px;
+	}
+	div.tit-wrap span {
+		font-size: 20px;
+	}
 }
 @media (max-width: 380px) {
-  div.tit-wrap p {
-    font-size: 10px;
-    line-height: 18px;
-  }
-  div.tit-wrap span {
-    font-size: 16px;
-  }
+	div.tit-wrap p {
+		font-size: 10px;
+		line-height: 18px;
+	}
+	div.tit-wrap span {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 330px) {
-  div.tit-wrap span {
-    font-size: 14px;
-  }
+	div.tit-wrap span {
+		font-size: 14px;
+	}
 }
