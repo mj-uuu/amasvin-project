@@ -29,6 +29,10 @@ header {
 	height: 60%;
 }
 
+.swiper-slide:first-of-type{
+  margin-top: 100px;
+}
+
 .swiper-slide2 {
 	width: 100%;
 	height: 50%;
@@ -87,6 +91,12 @@ div.tit-wrap span {
 	div.tit-wrap span {
 		font-size: 32px;
 	}
+}
+
+@media (max-width: 800px) {
+  .swiper-slide:first-of-type{
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 750px) {
